@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\editor\changeInsectorShow\myeditor.cs" />
-     <Compile Include="Assets\editor\editorWindow\myEditorWindow.cs" />
+     <Compile Include="Assets\editor\editorScene\editorscene.cs" />
+     <Compile Include="Assets\editor\editorWindow\myEditorWindow_SceneInfo.cs" />
+     <Compile Include="Assets\editor\editorWindow\myEditorWindow_base.cs" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>E:/unity5_5/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

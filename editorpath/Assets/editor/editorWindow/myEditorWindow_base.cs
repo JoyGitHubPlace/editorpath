@@ -1,19 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor;
 
-public class myEditorWindow : EditorWindow {
+public class myEditorWindow_base : EditorWindow
+{
 
-	[MenuItem("GameObject/window")]
+	[MenuItem("myEditor/basefunction")]
 	static void AddWindow()
 	{
 		//创建窗口
-		Rect winRect = new Rect(0, 0, 500, 500);
-		myEditorWindow window = (myEditorWindow)EditorWindow.GetWindowWithRect(typeof(myEditorWindow), winRect, true, "x-node");
+		Rect wr = new Rect(0, 0, 500, 500);
+		myEditorWindow_base window = (myEditorWindow_base)EditorWindow.GetWindowWithRect(typeof(myEditorWindow_base), wr, true, "widowbase");
 		window.Show();
 
 	}
+
 	//输入文字的内容
 	private string text;
 	//选择贴图的对象
@@ -22,7 +22,7 @@ public class myEditorWindow : EditorWindow {
 	public void Awake()
 	{
 		//在资源中读取一张贴图
-		texture = Resources.Load("pic") as Texture;
+		texture = Resources.Load("texture/pic") as Texture;
 	}
 
 	//绘制窗口时调用

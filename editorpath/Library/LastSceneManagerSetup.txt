@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/starttest.unity
+- path: Assets/scenes/inspectorValue.unity
   isLoaded: 1
   isActive: 1

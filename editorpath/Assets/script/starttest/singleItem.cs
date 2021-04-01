@@ -6,7 +6,8 @@ using Common.Base;
 
 public class singleItem : Singleton<singleItem>
 {
-    public int globalNum = 0;
+    public int globalNum = 0;   //暂时设置全局计数id
+	public bool isopenSeneInfo = false;  //设置是否打开场景中对象信息展示
     // Use this for initialization
     void Start () {
 		
