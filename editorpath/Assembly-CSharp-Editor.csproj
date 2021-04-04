@@ -50,6 +50,7 @@
      <Compile Include="Assets\editor\editorScene\editorscene.cs" />
      <Compile Include="Assets\editor\editorWindow\myEditorWindow_SceneInfo.cs" />
      <Compile Include="Assets\editor\editorWindow\myEditorWindow_base.cs" />
+     <Compile Include="Assets\editor\inspectorValue\SetPropertyDrawer.cs" />
      <Compile Include="Assets\editor\inspectorValue\setInspectorValueWithEditor.cs" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>E:/unity5_5/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>

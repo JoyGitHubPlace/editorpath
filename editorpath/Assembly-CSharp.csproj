@@ -49,6 +49,8 @@
      <Compile Include="Assets\common\Singleton.cs" />
      <Compile Include="Assets\script\EditorCode\Test.cs" />
      <Compile Include="Assets\script\EditorCode\objEditorTest.cs" />
+     <Compile Include="Assets\script\inspector\SetPropertyAttribute.cs" />
+     <Compile Include="Assets\script\inspector\SetPropertyExample.cs" />
      <Compile Include="Assets\script\inspector\inspectorValue.cs" />
      <Compile Include="Assets\script\starttest\singleItem.cs" />
      <Compile Include="Assets\script\starttest\teststart1.cs" />
