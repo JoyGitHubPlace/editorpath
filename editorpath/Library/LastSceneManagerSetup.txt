@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/inspectorValue.unity
+- path: Assets/scenes/rightProgress.unity
   isLoaded: 1
   isActive: 1

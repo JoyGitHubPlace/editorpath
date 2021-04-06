@@ -52,6 +52,9 @@
      <Compile Include="Assets\editor\editorWindow\myEditorWindow_base.cs" />
      <Compile Include="Assets\editor\inspectorValue\SetPropertyDrawer.cs" />
      <Compile Include="Assets\editor\inspectorValue\setInspectorValueWithEditor.cs" />
+     <Compile Include="Assets\editor\rightProgress\rightProgress.cs" />
+     <Compile Include="Assets\editor\setDefaultExternal\setDefaultExternal.cs" />
+     <None Include="Assets\file-setDefaultExternal\testTxt.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>E:/unity5_5/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

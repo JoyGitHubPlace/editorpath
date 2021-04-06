@@ -56,6 +56,7 @@
      <Compile Include="Assets\script\starttest\teststart1.cs" />
      <Compile Include="Assets\script\starttest\teststart2.cs" />
      <Compile Include="Assets\script\starttest\teststart3.cs" />
+     <None Include="Assets\file-setDefaultExternal\testTxt.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/unity5_5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
