@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\editor\ConsoleProgress\consoleProgressEditor.cs" />
      <Compile Include="Assets\editor\changeInsectorShow\myeditor.cs" />
      <Compile Include="Assets\editor\editorScene\editorscene.cs" />
      <Compile Include="Assets\editor\editorWindow\myEditorWindow_SceneInfo.cs" />
