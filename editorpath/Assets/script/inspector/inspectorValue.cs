@@ -17,4 +17,9 @@ public class inspectorValue : MonoBehaviour {
 	}
 	[SerializeField]
 	private int _width;
+
+
+	//测试设置数值约束
+	public int LuckyPoint;
+	public int ATK;
 }
