@@ -52,6 +52,7 @@
      <Compile Include="Assets\script\inspector\SetPropertyAttribute.cs" />
      <Compile Include="Assets\script\inspector\SetPropertyExample.cs" />
      <Compile Include="Assets\script\inspector\inspectorValue.cs" />
+     <Compile Include="Assets\script\serialization\serialzationInspector.cs" />
      <Compile Include="Assets\script\starttest\singleItem.cs" />
      <Compile Include="Assets\script\starttest\teststart1.cs" />
      <Compile Include="Assets\script\starttest\teststart2.cs" />

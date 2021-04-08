@@ -56,6 +56,9 @@
      <Compile Include="Assets\editor\inspectorValue\SetPropertyDrawer.cs" />
      <Compile Include="Assets\editor\inspectorValue\setInspectorValueWithEditor.cs" />
      <Compile Include="Assets\editor\rightProgress\rightProgress.cs" />
+     <Compile Include="Assets\editor\scriptableObjects\serializeBase.cs" />
+     <Compile Include="Assets\editor\scriptableObjects\serializeWindow.cs" />
+     <Compile Include="Assets\editor\scriptableObjects\serialzationEditor.cs" />
      <Compile Include="Assets\editor\setDefaultExternal\setDefaultExternal.cs" />
      <None Include="Assets\file-setDefaultExternal\testTxt.txt" />
  <Reference Include="UnityEditor.Advertisements">
