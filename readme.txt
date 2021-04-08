@@ -32,3 +32,6 @@ v0.6
 1:加入Serialization数据存储，这一块很重要，编辑器不能每次都重新开始编吧，而且重要的是可以对inspector参数
 做映射存档，保存同样一结构的ScriptableObject对应起来就可以做了，还是很方便的，对于美术编辑可以随便调，调
 好存一份就好了
+2：System.IO.Path的路径为E:\unityProjects\editorpath\editorpath\Assets;
+Application.dataPath的路径为E:/unityProjects/editorpath/editorpath/Assets
+注意区分
