@@ -53,6 +53,7 @@
      <Compile Include="Assets\editor\editorScene\editorscene.cs" />
      <Compile Include="Assets\editor\editorWindow\myEditorWindow_SceneInfo.cs" />
      <Compile Include="Assets\editor\editorWindow\myEditorWindow_base.cs" />
+     <Compile Include="Assets\editor\getPrefabPath\getPrefabpath.cs" />
      <Compile Include="Assets\editor\inspectorValue\SetPropertyDrawer.cs" />
      <Compile Include="Assets\editor\inspectorValue\setInspectorValueWithEditor.cs" />
      <Compile Include="Assets\editor\rightProgress\rightProgress.cs" />
@@ -111,6 +112,9 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>E:/unity5_5/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>E:/unity5_5/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>E:/unity5_5/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>

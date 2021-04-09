@@ -35,3 +35,8 @@ v0.6
 2：System.IO.Path的路径为E:\unityProjects\editorpath\editorpath\Assets;
 Application.dataPath的路径为E:/unityProjects/editorpath/editorpath/Assets
 注意区分
+
+
+v0.7
+
+1:做项目的时候会遇到prefab不知道在哪里被使用的情况，可以写一个对scene 列表的遍历查询来打印出对应位置就很舒服了
